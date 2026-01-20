@@ -15,8 +15,6 @@ plugins {
 
 rootProject.name = "World Gen V2"
 
-localRepository("Hyxin", "curse.maven:hyxin-1405491", enabled = true)
-
 includeBuild("../hytale-gradle-plugin") {}
 
 fun localRepository(repo: String, dependencySub: String, enabled: Boolean) {

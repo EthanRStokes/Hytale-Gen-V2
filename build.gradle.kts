@@ -34,8 +34,6 @@ dependencies {
     compileOnly(libs.jetbrains.annotations)
     compileOnly(libs.jspecify)
 
-    compileOnly("curse.maven:hyxin-1405491:7399430")
-
     // this mod is optional, but is included so you can preview your mod icon
     // in the in-game mod list via the /modlist command
     runtimeOnly(libs.bettermodlist)
@@ -78,9 +76,8 @@ tasks.processResources {
 hytale {
     //jvmArgs.add("-Dhyxin-target=${sourceSets.main.get().output.joinToString(",")}")
     autoUpdateManifest.set(true)
-    earlyPlugin.set(true)
 
-    patchLine.set(PatchLine.PRE_RELEASE)
+    patchLine.set(PatchLine.RELEASE)
 }
 
 javadocMigration {
