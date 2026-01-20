@@ -1,8 +1,8 @@
 {
     "Group": "FrozenBlock",
-    "Name": "Configurable_Everything",
-    "Version": "0.0.1",
-    "Description": "Adds configurability to Hytale",
+    "Name": "World_Gen_V2",
+    "Version": "1.0",
+    "Description": "Enables the experimental V2 world generator",
     "Authors": [
         {
             "Name": "Ethan Stokes"

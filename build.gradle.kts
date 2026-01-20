@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "net.frozenblock"
-version = "0.0.1"
+version = "1.0"
 val javaVersion = 25
 
 repositories {
@@ -109,6 +109,10 @@ tasks.withType<Jar> {
             providers.environmentVariable("COMMIT_SHA_SHORT")
                 .map { "${version}-${it}" }
                 .getOrElse(version.toString())
+    }
+
+    from("LICENSE") {
+        rename { "${it}_${base.archivesName.get()}" }
     }
 }
 
