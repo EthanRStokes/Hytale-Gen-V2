@@ -1,3 +1,3 @@
-# Configurable Everything: Hytale
+# World Gen V2
 
-Configurable Everything for Hytale
+Enables the experimental V2 world generator
