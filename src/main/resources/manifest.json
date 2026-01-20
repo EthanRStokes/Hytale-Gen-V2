@@ -1,0 +1,22 @@
+{
+    "Group": "FrozenBlock",
+    "Name": "Configurable_Everything",
+    "Version": "0.0.1",
+    "Description": "Adds configurability to Hytale",
+    "Authors": [
+        {
+            "Name": "Ethan Stokes"
+        }
+    ],
+    "Website": "https://frozenblock.net",
+    "ServerVersion": "*",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "Main": "net.frozenblock.worldgenv2.WorldGenV2Plugin"
+}
